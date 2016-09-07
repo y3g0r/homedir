@@ -71,11 +71,11 @@ bindkey -m "^ " eval "stuff ' '" writebuf "exec sh -c 'xsel -i < /tmp/screen-exc
 # bindkey -m "^b" stuff h     # move back one character
 # bindkey -m "^f" stuff l     # move forward one character
 # bindkey -m "^a" stuff 0     # move to beginning of line
-# # bindkey -m "^s" stuff ^s    # incremental search forward
-bindkey -m "^g" stuff q     # exit copy mode
+# bindkey -m "^s" stuff ^s    # incremental search forward
+# bindkey -m "^g" stuff q     # exit copy mode
 
 # use backtick for prefix key instead of Ctrl-A
-escape ``
+# escape ``
 
 # so it won't seem like there is a delay when entering copy mode
 msgminwait 0
