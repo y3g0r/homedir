@@ -3,7 +3,7 @@
 shell $SHELL
 
 # scrollback
-defscrollback 4000
+defscrollback 10000
 
 # New windows start at 11
 bind c screen 11
